@@ -1,69 +1,67 @@
-/* styles.css */
-
 body {
-    color: black;
-  }
-  
-  #title,
-  #description {
-    text-align: center;
-  }
-  
-  #survey-form {
-    padding-top: 30px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(17, 3, 27, 0.774);
-    padding-left: 40px;
-    border-radius: 5px;
-  }
-  
-  #name,
-  #number,
-  #email,
-  #dropdown,
-  textarea {
-    padding-top: 15px;
-    margin-top: 5px;
-    width: 550px;
-    height: 40px;
-    border-radius: 7px;
-    padding-left: 10px;
-  }
-  
-  #dropdown {
-    height: 50px;
-  }
-  
-  label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-  }
-  
-  input[type="radio"],
-  input[type="checkbox"] {
-    margin-top: 5px;
-    margin-right: 5px;
-  }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  #submit {
-    margin-top: 15px;
-    width: 550px;
-    height: 60px;
-    border-radius: 7px;
-    background-color: rgb(22, 128, 92);
-    font-weight: bold;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
-  
-  #submit:hover {
-    background-color: rgb(0, 100, 0);
-  }
+  color: whitesmoke;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  padding-top: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(17, 3, 27, 0.774);
+  padding-left: 40px;
+  border-radius: 5px;
+}
+
+#name,
+#number,
+#email,
+#dropdown,
+textarea {
+  padding-top: 15px;
+  margin-top: 5px;
+  width: 550px;
+  height: 40px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+#dropdown {
+  height: 50px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+#submit {
+  margin-top: 15px;
+  width: 550px;
+  height: 60px;
+  border-radius: 7px;
+  background-color: rgb(22, 128, 92);
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(0, 100, 0);
+}
